@@ -1,0 +1,82 @@
+body{
+
+}
+.main_head{
+
+
+}
+.main_head h1{
+    font-family: "Kanit";
+    font-size: 7.50vw;
+    color: #000;
+    
+    
+}
+
+.grid{
+   
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+.box{
+    background-color: white;
+  
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+
+.nav_menu ul{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    height: 150px;
+    
+    
+}
+.nav_menu ul li {
+    text-align: center;
+    list-style: none;
+    flex-grow: 1;
+    background-color:white;
+  
+    
+}
+.nav_menu ul li:hover{
+      background-color: #212121;
+      color: white;
+}
+.nav_menu ul li a {
+    color: #212121;
+    font-family: "Eczar";
+    font-size: 4.5vw;
+    padding: 40px;
+}
+.nav_menu ul li a:hover{
+    color: white;
+  
+}
+img:hover{
+    opacity: 0.7;
+}
+
+.box-2{
+    writing-mode: vertical-lr;
+    background-color: white;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 3.33vw;
+}
+.box-2:hover{
+    transition: 1.8s;
+    background-color: #212121;
+    color: #fff;
+}

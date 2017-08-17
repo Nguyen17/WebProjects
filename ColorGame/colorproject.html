@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Color Box</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="sweetalert-master/dist/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
+    <link href="colorproject.css" rel="stylesheet">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Nova+Flat|Poiret+One" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header_logo">
+           <!--<h1>
+        <span id="game_title">Color Box</span> <br> Guess which <em>circle</em> is
+        <span id="color_display">RGB</span>?
+    </h1>-->
+     <h1><span id="game_title">Color Box</span></h1>
+     <p>
+         <a href="#">How to play?</a>
+         | Donate <---
+     </p>
+    </div>
+
+    <div class="wrapper">
+    <h1>
+        <br> Which <em>circle</em> is. . . <br>
+        <span id="color_display">RGB</span>?
+    </h1>
+    <div class="scoreBoard">
+        <h2>Score: </h2>
+        <p><strong>Right: <span id="rightScore">0</span></strong></p>
+        <p><strong>Wrong: <span id="wrongScore">0</span></strong></p>
+        <p><strong>Grade: <span id="grade">0</span> %</strong></p>
+        <button id="reset_button">Reset</button>
+
+
+    </div>
+
+    <div class="messageBoard">
+        <h3 id="message_"></h3>
+    </div>
+
+
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+
+</div>
+    <footer>
+        <h4>&copy; 2017 </h4>
+    </footer>
+
+
+    <script src="colorproject.js"></script>
+</body>
+
+</html>

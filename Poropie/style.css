@@ -1,0 +1,109 @@
+/* Temp */
+body{
+    /* background-color: #F2F1EF; */
+    background-color: #131313;
+}
+.wrapper{
+   
+}
+.main_title{
+    margin: 0 auto;
+    width: 1280px;
+    height: 648px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.main_title h1{
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#poro-gif{
+    margin: 0;
+}
+#poro-gif img{
+    width: 150px;
+    height: 100px;
+    margin: 0;
+}
+#japanese_{
+    position: absolute;
+    z-index: 1;
+    font-size: 34.9vw;
+    top: 5%;
+    left: 5%;
+    margin: 0 0 0 0;
+    color: #000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #9B59B6;
+    letter-spacing: 0.3em;
+      /* border: 1px solid red; */
+    
+}
+#clip{
+    margin: 0;
+    font-family: 'Press Start 2p';
+    font-size: 8.75vw;
+    /* background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%); */
+    background: repeating-linear-gradient(-45deg,rgb(0, 165, 223) 0%,rgb(62, 20, 123) 20.1%,rgb(226, 0, 121) 39.8%,rgb(223, 19, 44) 60%,rgb(243, 239, 21) 80%,rgb(0, 152, 71) 99.9%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: 'slide' 10s infinite linear forwards;
+    font-kerning: auto;
+    letter-spacing: o.1em;
+    z-index:100;
+
+}
+
+/* Navigation */
+.nav{
+    margin: 0 auto;
+    text-align: center;
+}
+.nav ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    -webkit-align-content: space-between;
+    -webkit-align-items: center;
+   
+
+}
+.nav ul li{
+    list-style: none;
+    margin-left: 10%;
+    margin-right: auto;
+    font-family: 'Arima Madurai';
+    font-size: 2.5vw;
+    
+}
+.nav ul li a {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+
+#novel{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 75%;
+    left: 19%;
+    transform: translateY(-50%);
+    width: 60%;
+}
+
+/* Functions */
+@keyframes slide {
+    0%{
+        background-position-x: 0%;
+
+    }
+    100%{
+        background-position-x: 600vw;
+    }
+}
