@@ -1,0 +1,80 @@
+@font-face{
+    font-family: "Alivia";
+    src: url("AliviaScriptFont/Alivia-Regular.ttf");
+}
+body{
+ 
+}
+button:focus {outline:0;}
+.wrapper{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 60%;
+    height: 70%;
+    /* border: 1px solid black; */
+    background-image: repeating-linear-gradient( 135deg, #A0FE65 10%,#00E4FF 50%, #FA016D 100%);
+    border-radius:3%;
+    opacity: 0.7;
+
+}
+.content_wrapper{
+    width: 1440px;
+    height: 548px;
+    border: 10px solid white;
+    z-index: 2;
+    background-color: #fff;
+    -webkit-box-shadow:0 23px 17px 0 #9F8641;
+    -moz-box-shadow:0 23px 17px 0 #9F8641;
+    box-shadow: 0 23px 17px 0 #9F8641;
+
+}
+.content_wrapper p{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-size: 2.248em;
+    color: #121212;
+    letter-spacing: 0.2em;
+}
+#clip_text{
+    font-family: "Alivia";
+    font-size: 8em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    background: repeating-linear-gradient( 135deg, #A0FE65 10%, #FA016D 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: 'slide' 15s infinite linear forwards;
+    
+}
+.circle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #C8F7C5;
+    position: fixed;
+}
+.center-button{
+    position: relative;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+
+@keyframes slide{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 500vw;
+    }
+}
