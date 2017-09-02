@@ -38,18 +38,18 @@ if (jsObject.water == false){
     // document.write("Nope... :c");
 }
 else{
-    document.getElementById("response").innerHTML = "WTFFF HOLY SHIT ITS ON WATER!";
+    document.getElementById("response").innerHTML = "ITS ON WATER!! LOOK AT IT!";
 
 }
 
 function initMap() {
-    var uluru = {lat: jsObject.lat , lng: jsObject.lon};
+    var mapPos = {lat: jsObject.lat , lng: jsObject.lon};
     var map = new google.maps.Map(document.getElementById('google-map'), {
       zoom: 4,
-      center: uluru
+      center: mapPos
     });
     var marker = new google.maps.Marker({
-      position: uluru,
+      position: mapPos,
       map: map
     });
   }
