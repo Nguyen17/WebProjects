@@ -38,7 +38,7 @@ if (jsObject.water == false){
     // document.write("Nope... :c");
 }
 else{
-    document.getElementById("response").innerHTML = "ITS ON WATER!! LOOK AT IT!";
+    document.getElementById("response").innerHTML = "IT'S ON WATER!! LOOK AT IT!";
 
 }
 
