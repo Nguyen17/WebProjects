@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 var api_key = "uvej-2xux8WGR72JuKfw";
-var latitude_ = prompt("Enter latitude: ");
-var longitude_ = prompt("Enter longitude: ");
+var latitude_ = prompt("Enter latitude(0 - 90): ");
+var longitude_ = prompt("Enter longitude(0 - 180): ");
 xhr.open("GET", "https://api.onwater.io/api/v1/results/" + latitude_ + "," + longitude_ + "?" + "access_token=" + api_key,false);
 // xhr.open("GET","https://api.onwater.io/api/v1/results/10,30?access_token=uvej-2xux8WGR72JuKfw", false);
 
