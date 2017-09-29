@@ -1,6 +1,6 @@
 // Creating api http request
 var xhr = new XMLHttpRequest();
-xhr.open("GET","http://quotes.stormconsultancy.co.uk/random.json", false );
+xhr.open("GET","https://quotes.stormconsultancy.co.uk/random.json", false );
 xhr.send();
 
 // Console output api status and response
