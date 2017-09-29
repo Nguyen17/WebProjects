@@ -1,0 +1,35 @@
+body{
+    background-color: ##ecf0f1;
+}
+.wrapper{
+    text-align: center;
+}
+h1 {
+    font-family: "Nixie One";
+    color: #F22613;
+    font-size: 9.39vw;
+    letter-spacing: 0.2em;
+}
+p{
+    font-family: "Vollkorn";
+    padding: 1rem;
+    font-size: 1.6rem
+}
+#quote p{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#author p{
+    font-family: "Open Sans";
+    color: #4183D7;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 11px;
+}
+
