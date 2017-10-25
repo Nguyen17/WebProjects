@@ -3,7 +3,7 @@ function formatUSD(el) {
   return (el).toLocaleString('en-US', {
     style: 'currency',
     currency: 'USD',
-  }); /* $2,500.00 */
+  }); 
 }
 function number_(el) {
   return parseInt(el);
@@ -29,7 +29,6 @@ $('#mortage_amount').change(function () {
     swal("Oh no!", "The loan amount must be less than or equal to $1,000,000.", "error")
 
   }
-  else if()
 
 })
 
