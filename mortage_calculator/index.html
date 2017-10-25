@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mortage Calculator</title>
+    <!-- Jquery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <!-- Bootstrap -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css'
+    />
+   
+    <!-- Sweet alert -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js'></script>
+    <!-- Normalize -->
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css' />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli|Nunito|Roboto" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+
+
+
+        <div class="window-wrapper">
+            <!-- menu-design  -->
+            <div class="minimize_menu">
+                <div class="red-circle circle"></div>
+                <div class="yellow-circle circle"></div>
+                <div class="green-circle circle"></div>
+
+            </div>
+            <!-- Window frame -->
+            <div class="outer-frame">
+                <div class="output-display">
+                    <div class="payment-output">
+                        <h1>Payment</h1>
+                        <div class="results">
+                            <p>$0.00</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- Form -->
+                <div class="form-content">
+                    <label>Mortage amount<br>
+                        <input type="number" id="mortage_amount" placeholder="max $1,000,000">
+                    </label>
+                    <label>Yearly interest rate<br>
+                        <input type="number" id="yearly_interest_rate" placeholder="max 20%">
+                    </label>
+                    <label>Term(in years)<br>
+                        <input type="number" id="term_" placeholder="max 50 yrs">
+                    </label>
+
+
+
+                    <button id="submit">submit</button>
+                </div>
+
+
+            </div>
+
+            <!-- window wrapper -->
+        </div>
+
+        <!-- wrapper end -->
+    </div>
+
+
+    <!-- external script -->
+    <script src="script.js"></script>
+</body>
+
+</html>

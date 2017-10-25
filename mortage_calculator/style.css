@@ -1,0 +1,156 @@
+/* General */
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+label{
+    font-family: 'Muli';
+}
+input[type="number"]{
+    padding: 5px;
+}
+
+/* Mac Window Design */
+.window-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #999;
+    height: 550px;
+    background-color: #fff;
+    margin-top: 4%;
+    /* Box shadow */
+    -webkit-box-shadow: 1px 1px 3px #555;
+            box-shadow: 1px 1px 3px #555;
+    
+  
+
+}
+
+.minimize_menu{
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 20px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    background-color: #232323;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.minimize_menu div{
+    margin-right: 2px;
+}
+
+.red-circle{
+    background-color: #F22613;
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    margin: 0;
+
+}
+.yellow-circle{
+    background-color: #F4D03F;
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.green-circle{
+ background-color: #2ECC71;   
+ height: 15px;
+ width: 15px;
+ padding: 0;
+ margin: 0;
+}
+
+
+
+
+
+
+.outer-frame{
+    margin: 0 auto;
+    /* border: 1px dashed #000; */
+  
+    
+}
+
+
+
+
+
+
+/* Payment Display */
+.output-display{
+    margin-top: 10%;
+}
+.payment-output
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.payment-output h1{
+    font-family: "Roboto";
+    font-size: 44px;
+}
+.payment-output p{
+    margin-top: 5%;
+    font-family: 'Nunito';
+    font-size: 26px;
+    color: #26C281;
+}
+
+
+
+
+
+/* Form */
+.form-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* border: 1px solid red; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 10%;
+}
+
+
+/* CSS General Class */
+.circle{
+    border-radius: 50%;
+}
