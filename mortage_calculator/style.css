@@ -149,6 +149,13 @@ input[type="number"]{
     margin-top: 10%;
 }
 
+/* Responsive */
+@media only screen and (max-width: 360px)  {
+    .window-wrapper{
+        width: 60%;
+    }
+}
+
 
 /* CSS General Class */
 .circle{
