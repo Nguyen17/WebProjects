@@ -1,0 +1,90 @@
+.head_title{
+    /* border: 5px solid;
+    border-color:#F695F5; */
+    /* opacity: 0.7; */
+}
+.head_title h1{
+    font-family: "Muli", sans-serif;
+    text-align: center;
+    font-size: 86px;
+  
+    padding: 0;
+    margin: 0;
+ 
+    background: #ec008c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+/* Search */
+.search-nav{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding: 20px;
+    border-color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);;
+}
+input[type=text]:focus{
+    width: 30%;
+    border: 2px solid pink;
+ 
+
+
+}
+
+/* Flat Icon */
+#btn {
+    display: inline-block;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F6A9DC;
+    transition: .8s ease-in;
+    text-shadow: none;
+    outline: none;
+    border-color: none;
+    
+}
+button{
+    border: none;
+    outline-style: none;
+}
+#btn:focus{
+    background-color:#94EABB;
+    transition: .8s ease-in-out;
+    
+}
+#btn::-moz-focus-inner{
+    border: none;
+}
+
+/* When the input field gets focus, change its width to 100% */
+/* Card */
+.section-content{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    width: 500px;
+    height: 446px;
+    /* border: 1px solid black; */
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
