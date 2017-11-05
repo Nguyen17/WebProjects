@@ -22,13 +22,13 @@ $('#search-input').keydown(function (event) {
                 var response_ = JSON.parse(xhr.responseText)
                 console.log(response_)
                 // var url = response_.data[0].images.original.url;
-                var url = "https://cors-anywhere.herokuapp.com/" + response_.data.image_url;
+                var url = response_.data.image_url;
                 img.src = url;
             }
     
         }
     
-        xhr.open("GET", "http://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=" + tag_ +"&limit=1");
+        xhr.open("GET", "https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=" + tag_ +"&limit=1");
         xhr.send();
     }
 
@@ -45,13 +45,13 @@ $('#btn').click(function (event) {
             var response_ = JSON.parse(xhr.responseText)
             console.log(response_)
             // var url = response_.data[0].images.original.url;
-            var url = "https://cors-anywhere.herokuapp.com/" + response_.data.image_url;
+            var url = response_.data.image_url;
             img.src = url;
         }
 
     }
 
-    xhr.open("GET", "http://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=anime&limit=1");
+    xhr.open("GET", "https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=anime&limit=1");
     xhr.send();
 });
 
