@@ -22,7 +22,7 @@ $('#search-input').keydown(function (event) {
                 var response_ = JSON.parse(xhr.responseText)
                 console.log(response_)
                 // var url = response_.data[0].images.original.url;
-                var url = response_.data.image_url;
+                var url = "https://cors-anywhere.herokuapp.com/" + response_.data.image_url;
                 img.src = url;
             }
     
