@@ -28,7 +28,7 @@ $('#search-input').keydown(function (event) {
     
         }
     
-        xhr.open("GET", "https://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=" + tag_ +"&limit=1");
+        xhr.open("GET", "https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=" + tag_ +"&limit=1");
         xhr.send();
     }
 
@@ -51,7 +51,7 @@ $('#btn').click(function (event) {
 
     }
 
-    xhr.open("GET", "https://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=anime&limit=1");
+    xhr.open("GET", "https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=anime&limit=1");
     xhr.send();
 });
 
