@@ -51,7 +51,7 @@ $('#btn').click(function (event) {
 
     }
 
-    xhr.open("GET", "http://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=anime&limit=1");
+    xhr.open("GET", "https://api.giphy.com/v1/gifs/random?api_key=" + api_key + "&tag=anime&limit=1");
     xhr.send();
 });
 
